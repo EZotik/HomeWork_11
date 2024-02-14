@@ -1,0 +1,12 @@
+{
+  "name": "Ekaterina",
+  "age": 34,
+  "hobby": [
+    "education",
+    "reading"
+  ],
+  "courseInfo": {
+    "language": "Java",
+    "group": 24
+  }
+}

@@ -62,7 +62,7 @@ public class SelenideFilesTest {
                 if (entry.getName().endsWith(".csv")) {
                     CSVReader csvReader = new CSVReader(new InputStreamReader(zis));
                     List<String[]> content = csvReader.readAll();
-                    Assertions.assertArrayEquals(new String[]{ "1234", "\"ООО \"Ромашка\"\"", "456789"}, content.get(1));
+                    Assertions.assertArrayEquals(new String[]{ "1234;\"ООО \"Ромашка\"\";456789"}, content.get(1));
                     }
                }
             }
